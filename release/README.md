@@ -22,10 +22,11 @@ Potential/Unsure - Use android device as wifi adapter in place for router at dem
 
 ###Install Instructions
 ####Quick Instructions
-1. Extract RIOdroid.zip
-2. copy RIOdroid.tar.gz and RIOdroid.sh to /home/admin on the RoboRIO
-3. Run the RIOdroid.sh script from that directory
-4. Use the RIOdroid.jar file in your java code to access Android Debug Bridge and usb4java code.
+1. Download RIOdroid.zip from https://github.com/Spectrum3847/RIOdroid/tree/master/release
+2. Extract RIOdroid.zip
+3. copy RIOdroid.tar.gz and RIOdroid.sh to /home/admin on the RoboRIO
+4. Run the RIOdroid.sh script from that directory
+5. Use the RIOdroid.jar file in your java code to access Android Debug Bridge and usb4java code.
 
 ####More Detailed Instructions
 1. Extract the RIOdroid.zip file to a folder on your computer (RIOdroid on your desktop for example)
@@ -38,7 +39,7 @@ Potential/Unsure - Use android device as wifi adapter in place for router at dem
 	- Click accept or yes to any pop windows
 	- Using the left pane of the window navigate to the folder you extracted the RIOdroid.zip into.
 	- Drag the RIOdroid.tar.gz and RIOdroid.sh files over to the right window pane.
-	
+
 3. SSH into the RoboRIO
 	- Install Putty from (www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 	- open putty and connect to either roborio-XXXX.local or 172.22.11.2 (XXXX is your team number)
@@ -51,10 +52,10 @@ Potential/Unsure - Use android device as wifi adapter in place for router at dem
 	- type the following command to see if things are working
 		adb devices
 	- That should have started the adb services and displayed that in the PuTTY window
-	
+
 4. Now you can use the library .jar file in your project. You will need to add this to your build script. This will be easy in 2016.
 
-5. The example file provided forwards a port from an android device running the IP Webcam app to the external ports of the roborio. 
+5. The example file provided forwards a port from an android device running the IP Webcam app to the external ports of the roborio.
 So that you can connect to it at roborio-XXXX.local:8080 and view the camera image.
 
 ###Liscense Stuff
