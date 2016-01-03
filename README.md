@@ -1,14 +1,18 @@
-What is RIOdroid?
+#RIOdroid by Spectrum3847
+####What is RIOdroid?
 RIOdroid is a package that allows an NI RoboRIO to communicate with an Android Device that is connected to it's USB port.
 
-Why Android?
+####Why Android?
+
 Android phones are cheap and powerful. Lots of code already exists for the platform. Students already know Java.
 
-How to communicate? 
+####How do they communicate?
+
 ADB is available to allow for debug and control of the Android device from the RoboRIO.
 Android Accessory Protocol over USB. works on any android device running 3.1 or greater (basically any prepaid phone today or tablet)
 
-What should we able to use this for?
+####What should we able to use this for?
+
 Send video to the Driver station from an android device (this currently works with the IP Webcam app)
 Use Android as the coprocessor and send image data and object recognition data to the RoboRIO
 Use Android as a display for the roboRIO. Display values, colors, videos, etc.
@@ -16,14 +20,14 @@ Use Android as speakers for the RoboRIO Output sounds, music, noises, etc
 Get sensor data from the Android Device (accelerometer, compass, gyro, GPS, etc)
 Potential/Unsure - Use android device as wifi adapter in place for router at demonstrations/practice
 
-Install Instructions
-Quick Instructions
+###Install Instructions
+####Quick Instructions
 1. Extract RIOdroid.zip
 2. copy RIOdroid.tar.gz and RIOdroid.sh to /home/admin on the RoboRIO
 3. Run the RIOdroid.sh script from that directory
 4. Use the RIOdroid.jar file in your java code to access Android Debug Bridge and usb4java code.
 
-More Detailed Instructions
+####More Detailed Instructions
 1. Extract the RIOdroid.zip file to a folder on your computer (RIOdroid on your desktop for example)
 2.  Copy the script and RIOdroid.tar.gz into the RoboRIO (instructions below)
 	- Instructions for Windows
@@ -53,7 +57,7 @@ More Detailed Instructions
 5. The example file provided forwards a port from an android device running the IP Webcam app to the external ports of the roborio. 
 So that you can connect to it at roborio-XXXX.local:8080 and view the camera image.
 
-Liscense Stuff
+###Liscense Stuff
 This code is heavily based on code provided by
 Android Open Source Project (https://source.android.com/)
 usb4java (http://usb4java.org/)
