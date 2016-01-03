@@ -13,12 +13,12 @@ Android Accessory Protocol over USB. works on any android device running 3.1 or 
 
 ####What should we able to use this for?
 
-Send video to the Driver station from an android device (this currently works with the IP Webcam app)
-Use Android as the coprocessor and send image data and object recognition data to the RoboRIO
-Use Android as a display for the roboRIO. Display values, colors, videos, etc.
-Use Android as speakers for the RoboRIO Output sounds, music, noises, etc
-Get sensor data from the Android Device (accelerometer, compass, gyro, GPS, etc)
-Potential/Unsure - Use android device as wifi adapter in place for router at demonstrations/practice
+* Send video to the Driver station from an android device (this currently works with the IP Webcam app)
+* Use Android as the coprocessor and send image data and object recognition data to the RoboRIO
+* Use Android as a display for the roboRIO. Display values, colors, videos, etc.
+* Use Android as speakers for the RoboRIO Output sounds, music, noises, etc
+* Get sensor data from the Android Device (accelerometer, compass, gyro, GPS, etc)
+* Potential/Unsure - Use android device as wifi adapter in place for router at demonstrations/practice
 
 ###Install Instructions
 ####Quick Instructions
